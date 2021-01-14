@@ -150,3 +150,6 @@ span{
         display: none;
     }
   }
+  .social-media img{
+      width: 50px;
+  }
