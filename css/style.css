@@ -97,7 +97,7 @@ span{
 /* Footer-1 section */
 /* Footer-2 section */
 .footer-2{
-    display: none;
+    display: block;
 }
 
 .footer-2-iconbox img{
@@ -139,5 +139,8 @@ span{
   @media only screen and (min-width: 1300px) {
     .footer-1{
         display: flex;
+    }
+    .footer-2{
+        display: none;
     }
   }
