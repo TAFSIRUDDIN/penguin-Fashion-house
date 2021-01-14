@@ -1,0 +1,143 @@
+
+/* home section */
+.logo-img{
+    width: 291.11px;
+    height: 39.27px;
+}
+.home-head{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+    
+
+}
+.man-title{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+span{
+    color: #FABE4C;
+}
+.home-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+/* home section */
+.button{
+    width: 170px;
+    height: 60px;
+}
+/* Product section */
+.col .card img{
+    width: 90%;
+    height: 90%;
+
+}
+.product-card{
+    border: 0;
+    box-shadow: 5px 5px 5px #a8a7a7;
+}
+.add-cart{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+    margin-top: 5px;
+    
+}
+/* Product section */
+
+/* Footer-1 section */
+.footer-1{
+    background-color: white;
+    margin:0 auto;
+    width: 1320px;
+    display: none;
+    justify-content: space-around;
+    padding:100px 0;
+}
+.icon-box{
+    width: 489px;
+    height: 135px;
+   
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.icon-box p{
+    margin: 0;
+}
+.icon-box img{
+    width: 78px;
+    height: 82px;
+    margin: 20px;
+}
+.icon{
+    display: grid;
+    grid-row-gap: 20px;
+}
+.footer-img img{
+    width: 599px;
+    height: 354px;
+}
+/* Footer-1 section */
+/* Footer-2 section */
+.footer-2{
+    display: none;
+}
+
+.footer-2-iconbox img{
+  width: 79px;
+  height: 76px;
+}
+.footer-2-iconbox{
+  height: 240px;
+}
+/* Footer-2 section */
+
+
+
+
+
+
+/* Media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+ 
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1300px) {
+    .footer-1{
+        display: flex;
+    }
+  }
