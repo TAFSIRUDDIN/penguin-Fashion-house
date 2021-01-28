@@ -14,9 +14,9 @@
         <h1 class="text-center">Welcome to dream bank</h1>
         <div class="submit-area">
             <h4>Login</h4>
-            <input type="text" class="form-control" name="" id="" placeholder="Email">
+            <input id="eMail" type="text" class="form-control" name="" id="" placeholder="Email">
             <br>
-            <input type="password" class="form-control" name="" id="Password" placeholder="password">
+            <input id="password" type="password" class="form-control" name="" id="Password" placeholder="password">
             <br>
             <button id="login" class="btn btn-success">Enter</button>
         </div>
@@ -77,7 +77,16 @@
     //    const vallidPassword = 1;
     //    const addPassword = document.getElementById('Password').value;
         const loginBtn = document.getElementById("login");
-        loginBtn.addEventListener("click", loginId)
+        loginBtn.addEventListener("click", function(){
+            const password = document.getElementById("password").value;
+            const eMail = document.getElementById("eMail").value;
+            if(password == "topu0101" && eMail == "tafsirtapu04@gmail.com") {
+                loginId();
+            }
+            else{
+                alert("Give the correct password and eMail")
+            }
+        })
 
         
 
