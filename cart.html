@@ -66,13 +66,13 @@
 
                      <div class="col-md-4 status">
                         <h5 id="total-price">$1,278</h5>
-                        <h5 id="tax-amount">$0</h5>
+                        <h5 id="tax-amount">$64</h5>
                         <h5 id="grand-total">$1,278</h5>
                      </div>
                   </div>
                </div>
                <div class="col-md-12 pt-4 pb-4">
-                  <button type="button" class="btn btn-success check-out">Check Out</button>
+                  <a href="bank.html"><button type="button" class="btn btn-success check-out">Check Out</button></a>
                </div>
             </div>
          </div>
@@ -86,6 +86,7 @@ function handleProductChange(product, isIncrease){
       const productCount = parseInt(productInput.value);
       // const caseNewCount = caseCount - 1;
       let productNewCount = productCount;
+      
       if(isIncrease == true){
          productNewCount = productCount + 1;
       }
@@ -111,12 +112,16 @@ const remove1 = document.getElementById("remove1");
          const remove1It = document.getElementById("cart1")
          remove1It.style.display = "none";
          
-         
+         document.getElementById('phone-count').value = 0;
+         calculateTotal();
         })
 const remove2 = document.getElementById("remove2");
         remove2.addEventListener("click", function(){
          const remove2It = document.getElementById("cart2")
          remove2It.style.display = "none";
+
+         document.getElementById('case-count').value = 0;
+         calculateTotal();
         })
 
 
