@@ -142,6 +142,11 @@ span{
         margin-right: 14px;
     }
   } 
+  @media only screen and (width: 768px) {
+    .add-cart{
+        margin-right: 1px;
+    }
+  } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
