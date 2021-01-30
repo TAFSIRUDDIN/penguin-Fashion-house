@@ -146,6 +146,9 @@ span{
     .add-cart{
         margin-right: 1px;
     }
+    .row-cols-md-3>* {
+        width: 100% !important;
+    }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
