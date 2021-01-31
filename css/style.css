@@ -150,7 +150,15 @@ span{
         width: 100% !important;
     }
   } 
-  
+  @media only screen and (max-width: 991px) and (min-width: 769px){
+    .row-cols-md-3>* {
+        width: 50% !important;
+    }
+  }
+  /* @media (min-width: 768px){
+    .container, .container-md, .container-sm {
+    max-width: 944px !important;
+} */
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .footer-1{
